@@ -3,11 +3,11 @@ import { useSelector, useDispatch } from "react-redux";
 import ContactForm from "./ContactForm/ContactForm";
 import ContactList from "./ContactList/ContactList";
 
-import { addContact, removeContact } from "../redux/contacts/items/items-slice";
-import {setFilter} from "../redux/contacts/filter/filter-slice";
+import { addContact, removeContact } from "../../redux/contacts/items/items-slice";
+import {setFilter} from "../../redux/contacts/filter/filter-slice";
 
-import { getFilteredContacts } from "../redux/contacts/items/items-selectors";
-import {getFilter} from "../redux/contacts/filter/filter-selectors";
+import { getFilteredContacts } from "../../redux/contacts/items/items-selectors";
+import {getFilter} from "../../redux/contacts/filter/filter-selectors";
 
 import PropTypes from 'prop-types';
 import s from "./ContactList/contactList.module.css"

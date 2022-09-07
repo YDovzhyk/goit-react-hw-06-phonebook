@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { getFamilyContacts } from "../../components/redux/contacts/items/items-selectors"
+import { getFamilyContacts } from "../../redux/contacts/items/items-selectors"
 
 import PropTypes from 'prop-types';
 import s from "./Family.module.css"
